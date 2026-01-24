@@ -105,13 +105,3 @@ Next steps / extensions
 - Save metrics and figures in a reproducible experiment folder per run.
 - Integrate other backbones (e.g., EfficientNet) or fine-tuned embeddings.
 
-License & contact
--
-This repository is provided as-is for research and experimentation. Use an appropriate open-source license if you plan to share it publicly (e.g., MIT).
-
-If you want, I can:
-- add a `requirements.txt` or `environment.yml`
-- add a small CLI wrapper to pass dataset path and options
-
----
-Generated README for the repository.
