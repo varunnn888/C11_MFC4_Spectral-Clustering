@@ -157,7 +157,15 @@ Notes
 - The script caches `embeddings.npy` inside `outputs_eurosat_labeled` to speed repeated runs. Delete it to re-extract features.
 - If you have a CUDA-capable GPU and the correct PyTorch installation, the script will automatically use `cuda`.
 - If a class folder is missing the script raises a helpful FileNotFoundError; verify `DATASET_ROOT` and dataset layout.
-
+  
+## Project Updates
+- Successfully implemented **feature extraction** for the complete satellite image dataset.  
+- Constructed both **fixed-scale** and **density-adaptive similarity graphs**.  
+- Implemented **normalized graph Laplacian computation**.  
+- Performed **eigenvalue analysis** and **spectral embedding**.  
+- Observed **improved spectral stability** with the density-adaptive Laplacian.  
+- Generated **visual evidence** through spectral plots and clustered image grids.
+  
 Configuration flags (top of script)
 -
 - `DATASET_ROOT` — path to EuroSAT dataset root
