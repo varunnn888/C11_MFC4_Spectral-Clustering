@@ -30,6 +30,7 @@ This repository implements a density-adaptive (self-tuning) affinity constructio
   On Spectral Clustering: Analysis and an Algorithm.
   Advances in Neural Information Processing Systems.
   https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf
+---
 Key script
 -
 - [eurosat_full_density_adaptive_spectral.py](eurosat_full_density_adaptive_spectral.py) — main runnable script that performs dataset loading, embedding extraction, graph construction (global and self-tuning), spectral clustering, evaluation, and visualization.
