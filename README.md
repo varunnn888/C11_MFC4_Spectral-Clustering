@@ -15,7 +15,7 @@ This repository implements a density-adaptive (self-tuning) affinity constructio
 
 ## Spectral Clustering – Key References
 
-1. **Ng, Jordan & Weiss ** 
+1. **Ng, Jordan & Weiss **
    *On Spectral Clustering: Analysis and an Algorithm*
    - Introduced the widely used spectral clustering algorithm.  
    - Method: similarity graph → Laplacian → eigenvectors → k-means.  
