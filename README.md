@@ -22,15 +22,15 @@ This repository implements a density-adaptive (self-tuning) affinity constructio
    - Established spectral clustering as a robust alternative to traditional clustering.  
    [Read here](https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf)
 
-2. **Zelnik-Manor & Perona **  
-   *Self-Tuning Spectral Clustering*  
+2. **Zelnik-Manor & Perona (2004)**  
+   *Self-Tuning Spectral Clustering* 
    - Tackled sensitivity to scale parameter (σ).  
    - Proposed **local scaling** for robustness across varying data densities.  
    - Made spectral clustering more practical for real-world datasets.  
    [Read here](https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf)
 
-3. **von Luxburg **  
-   *A Tutorial on Spectral Clustering*  
+3.  **von Luxburg (2007)**  
+   *A Tutorial on Spectral Clustering* 
    - Comprehensive overview of theory and practice.  
    - Explained graph Laplacians, normalized cuts, and algorithmic variants.  
    - Provided intuition and guidance for applications.  
