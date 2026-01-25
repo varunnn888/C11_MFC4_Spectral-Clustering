@@ -17,19 +17,19 @@ This repository implements a density-adaptive (self-tuning) affinity constructio
 ## Reference Papers
 
 1.Zelnik-Manor, L., & Perona, P. (2004).
-  **Self-Tuning Spectral Clustering.**
-  Advances in Neural Information Processing Systems (NeurIPS).
-  https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf
-  
+Self-Tuning Spectral Clustering.
+Advances in Neural Information Processing Systems (NeurIPS).
+🔗 https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf
+
 2.von Luxburg, U. (2007).
-  **A Tutorial on Spectral Clustering.**
-  Statistics and Computing.
-  https://link.springer.com/article/10.1007/s11222-007-9033-z
+A Tutorial on Spectral Clustering.
+Statistics and Computing.
+🔗 https://link.springer.com/article/10.1007/s11222-007-9033-z
 
 3.Ng, A. Y., Jordan, M. I., & Weiss, Y. (2001).
-  **On Spectral Clustering: Analysis and an Algorithm.**
-  Advances in Neural Information Processing Systems.
-  https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf
+On Spectral Clustering: Analysis and an Algorithm.
+Advances in Neural Information Processing Systems (NeurIPS).
+🔗 https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf
 ---
 Key script
 -
