@@ -173,10 +173,6 @@ Evaluations produced
 - The script prints NMI, ARI, and best-mapped ACC for each method (KMeans baseline, spectral with global sigma, and spectral with self-tuning affinity).
 - A `cluster_purity_table.csv` is saved summarizing per-cluster majority class and purity percentage.
 
-Troubleshooting
--
-- If you see an error about missing class folder, verify the `DATASET_ROOT` setting and that the expected class subfolders (e.g., `Forest`, `River`, `SeaLake`, `Residential`, `Highway`) exist. The script prints the dataset path it's using to help debugging.
-- If embeddings extraction is slow, ensure `BATCH_SIZE` is reasonable and consider extracting once on GPU and reusing the saved `embeddings.npy`.
 
 
 
