@@ -181,6 +181,22 @@ Evaluations produced
 - The script prints NMI, ARI, and best-mapped ACC for each method (KMeans baseline, spectral with global sigma, and spectral with self-tuning affinity).
 - A `cluster_purity_table.csv` is saved summarizing per-cluster majority class and purity percentage.
 
+## Challenges / Issues Faced :
+
+- **Parameter Sensitivity**  
+  Standard spectral clustering is highly sensitive to the choice of the global scale parameter (σ), making results unstable.
+
+- **Heterogeneous Data Densities**  
+  Satellite imagery often contains regions with varying densities, complicating similarity graph construction and clustering accuracy.
+
+- **Spectral Interpretation**  
+  Correctly interpreting spectral embeddings and eigenvalue behavior requires careful analysis to avoid misrepresentation of cluster structures.
+
+- **Theory vs. Implementation Consistency**  
+  Ensuring mathematical consistency between theoretical formulations and practical implementation posed significant challenges.
+
+- **Graph Construction Debugging**  
+  Debugging similarity graph construction and aligning the implementation with reference papers demanded meticulous validation and troubleshooting.
 
 
 
