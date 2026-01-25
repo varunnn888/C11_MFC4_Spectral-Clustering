@@ -99,9 +99,5 @@ Troubleshooting
 - If you see an error about missing class folder, verify the `DATASET_ROOT` setting and that the expected class subfolders (e.g., `Forest`, `River`, `SeaLake`, `Residential`, `Highway`) exist. The script prints the dataset path it's using to help debugging.
 - If embeddings extraction is slow, ensure `BATCH_SIZE` is reasonable and consider extracting once on GPU and reusing the saved `embeddings.npy`.
 
-Next steps / extensions
--
-- Add CLI flags to override constants instead of editing the script.
-- Save metrics and figures in a reproducible experiment folder per run.
-- Integrate other backbones (e.g., EfficientNet) or fine-tuned embeddings.
+
 
