@@ -47,6 +47,51 @@ Repository structure (important files / folders)
 - [eurosat_full_density_adaptive_spectral.py](eurosat_full_density_adaptive_spectral.py)
 - [outputs_eurosat_labeled](outputs_eurosat_labeled) — generated outputs (embeddings, affinity matrices, predictions, images, CSVs).
 
+## Project Outline
+
+### 1. Dataset Preparation
+- Satellite image data is preprocessed to ensure **uniform resolution** and **consistency** across samples.
+
+### 2. Feature Extraction
+- Texture features are extracted using **Histogram of Oriented Gradients (HOG)**.  
+- Images are transformed into **high-dimensional feature vectors**.
+
+### 3. Distance Computation
+- Pairwise distances between feature vectors are computed.  
+- Captures **similarity relationships** in feature space.
+
+### 4. Fixed-Scale Graph Construction (Baseline)
+- A similarity graph is built using a **global Gaussian kernel** with a fixed scale parameter.  
+- Represents the **standard spectral clustering approach**.
+
+### 5. Density-Adaptive Graph Construction (Proposed Method)
+- Incorporates **local density information**.  
+- Each data point is assigned a **local scale** derived from its *k-nearest neighbors*.  
+- Produces a **density-adaptive similarity graph**.
+
+### 6. Graph Laplacian Formation
+- **Normalized graph Laplacians** are constructed for both fixed-scale and density-adaptive graphs.
+
+### 7. Spectral Analysis
+- **Eigenvalues and eigenvectors** of the Laplacians are analyzed.  
+- Studies **spectral stability** and **robustness** under varying data densities.
+
+### 8. Spectral Embedding and Clustering
+- Low-dimensional **spectral embeddings** are obtained from Laplacian eigenvectors.  
+- Used for **unsupervised clustering** of satellite images.
+
+### 9. Visualization and Evaluation
+- Visualizations include:  
+  - Spectral embeddings  
+  - Eigenvalue spectra  
+  - Clustered image outputs  
+- Comparison between **fixed-scale** and **density-adaptive** approaches.
+
+---
+
+## Goal
+To demonstrate how **density-adaptive spectral clustering** improves robustness and stability compared to the traditional fixed-scale method, especially in datasets with varying density regions.
+
 Typical outputs produced
 -
 - `embeddings.npy` — ResNet50 features (cached to avoid repeated extraction)
