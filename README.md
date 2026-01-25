@@ -13,24 +13,31 @@ This repository implements a density-adaptive (self-tuning) affinity constructio
 | Potnuru Varun | CB.SC.U4AIE24244 |
 | Ramu Jahna Bindu | CB.SC.U4AIE24249 |
 
+## Spectral Clustering – Key References
+
+1. **Ng, Jordan & Weiss * * 
+   *On Spectral Clustering: Analysis and an Algorithm*  
+   - Introduced the widely used spectral clustering algorithm.  
+   - Method: similarity graph → Laplacian → eigenvectors → k-means.  
+   - Established spectral clustering as a robust alternative to traditional clustering.  
+   [Read here](https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf)
+
+2. **Zelnik-Manor & Perona **  
+   *Self-Tuning Spectral Clustering*  
+   - Tackled sensitivity to scale parameter (σ).  
+   - Proposed **local scaling** for robustness across varying data densities.  
+   - Made spectral clustering more practical for real-world datasets.  
+   [Read here](https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf)
+
+3. **von Luxburg **  
+   *A Tutorial on Spectral Clustering*  
+   - Comprehensive overview of theory and practice.  
+   - Explained graph Laplacians, normalized cuts, and algorithmic variants.  
+   - Provided intuition and guidance for applications.  
+   [Read here](https://link.springer.com/article/10.1007/s11222-007-9033-z)
+
 ---
-## Reference Papers
 
-1.Zelnik-Manor, L., & Perona, P. (2004).
-Self-Tuning Spectral Clustering.
-Advances in Neural Information Processing Systems (NeurIPS).
-🔗 https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf
-
-2.von Luxburg, U. (2007).
-A Tutorial on Spectral Clustering.
-Statistics and Computing.
-🔗 https://link.springer.com/article/10.1007/s11222-007-9033-z
-
-3.Ng, A. Y., Jordan, M. I., & Weiss, Y. (2001).
-On Spectral Clustering: Analysis and an Algorithm.
-Advances in Neural Information Processing Systems (NeurIPS).
-🔗 https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf
----
 Key script
 -
 - [eurosat_full_density_adaptive_spectral.py](eurosat_full_density_adaptive_spectral.py) — main runnable script that performs dataset loading, embedding extraction, graph construction (global and self-tuning), spectral clustering, evaluation, and visualization.
