@@ -14,14 +14,7 @@ This repository implements a density-adaptive (self-tuning) affinity constructio
 
 ---
 
-## Team Members
 
-| Name | Roll Number |
-|------|-------------|
-| Jovika N B| CB.SC.U4AIE24223 |
-| P Poojitha| CB.SC.U4AIE24237 |
-| Potnuru Varun | CB.SC.U4AIE24244 |
-| Ramu Jahna Bindu | CB.SC.U4AIE24249 |
 
 ## Spectral Clustering – Key References
 
