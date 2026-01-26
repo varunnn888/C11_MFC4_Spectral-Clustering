@@ -4,7 +4,24 @@ Overview
 -
 This repository implements a density-adaptive (self-tuning) affinity construction and spectral clustering pipeline applied to the EuroSAT dataset. The included script extracts ResNet50 embeddings, builds two affinity graphs (global-sigma and self-tuning local-scale), runs spectral clustering, and saves labeled montages and cluster purity metrics.
 
+## Course
+**22MAT230 – Mathematics for Computing IV**  
+Amrita Vishwa Vidyapeetham, Coimbatore
 
+---
+
+## Team Details
+
+**Team 11 – Batch C**
+
+| Name | Roll Number |
+|-----|------------|
+| Jovika N B | CB.SC.U4AIE24223 |
+| P Poojitha | CB.SC.U4AIE24237 |
+| Potnuru Varun| CB.SC.U4AIE24244 |
+| Ramu Jahna Bindu| CB.SC.U4AIE24249 |
+
+---
 
 ## Spectral Clustering – Key References
 
