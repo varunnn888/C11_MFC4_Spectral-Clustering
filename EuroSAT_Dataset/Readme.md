@@ -36,3 +36,5 @@ River
 SeaLake
 
 Note: Drop Index columns [the first column in all CSV files] while reading the training, testing and validation CSV files.
+
+Dataset link : https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
