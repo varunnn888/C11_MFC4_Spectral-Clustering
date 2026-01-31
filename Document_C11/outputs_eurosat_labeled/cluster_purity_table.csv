@@ -1,0 +1,16 @@
+Method,Cluster_ID,Cluster_Size,Majority_Class,Majority_Count,Purity_%
+KMeans on Embeddings,0,508,Forest,385,75.79
+KMeans on Embeddings,1,236,Residential,201,85.17
+KMeans on Embeddings,2,266,SeaLake,265,99.62
+KMeans on Embeddings,3,212,Residential,188,88.68
+KMeans on Embeddings,4,778,River,381,48.97
+Spectral (Global Sigma),0,779,River,386,49.55
+Spectral (Global Sigma),1,325,Residential,325,100
+Spectral (Global Sigma),2,438,Forest,392,89.5
+Spectral (Global Sigma),3,353,SeaLake,349,98.87
+Spectral (Global Sigma),4,105,Residential,69,65.71
+Spectral (Self-Tuning),0,795,River,392,49.31
+Spectral (Self-Tuning),1,416,Residential,394,94.71
+Spectral (Self-Tuning),2,434,Forest,393,90.55
+Spectral (Self-Tuning),3,222,SeaLake,218,98.2
+Spectral (Self-Tuning),4,133,SeaLake,133,100
