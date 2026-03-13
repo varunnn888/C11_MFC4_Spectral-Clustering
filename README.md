@@ -134,14 +134,14 @@ Typical outputs produced
 Dataset (EuroSAT) and expected layout
 -
 This script expects a local EuroSAT dataset folder organized like:
-
+```
 EuroSAT/
 ├── Forest/
 ├── River/
 ├── SeaLake/
 ├── Residential/
 └── Highway/
-
+```
 Set the dataset root in the script by editing the `DATASET_ROOT` constant at the top of [eurosat_full_density_adaptive_spectral.py](eurosat_full_density_adaptive_spectral.py). The script will try `os.path.join(DATASET_ROOT, "2750")` first and fall back to `DATASET_ROOT` if the subfolder isn't present.
 
 
