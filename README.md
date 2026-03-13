@@ -144,6 +144,7 @@ EuroSAT/
 ```
 Set the dataset root in the script by editing the `DATASET_ROOT` constant at the top of [eurosat_full_density_adaptive_spectral.py](eurosat_full_density_adaptive_spectral.py). The script will try `os.path.join(DATASET_ROOT, "2750")` first and fall back to `DATASET_ROOT` if the subfolder isn't present.
 
+Dataset link:https://www.kaggle.com/datasets/apollo2506/eurosat-dataset
 
 Notes
 -
