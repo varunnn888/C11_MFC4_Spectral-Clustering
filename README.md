@@ -30,30 +30,6 @@ Amrita Vishwa Vidyapeetham, Coimbatore
 
 - Traditional clustering algorithms such as K-Means assume uniform data distribution and spherical clusters, which often fail for real-world datasets like satellite images. The EuroSAT dataset contains land-cover classes with varying densities and overlapping visual patterns (e.g., rivers and highways).
 - This project is interesting because it applies graph theory and spectral analysis to adapt similarity computation locally, leading to more robust and meaningful clustering results.
-## Spectral Clustering – Key References
-
-1. **Ng, Jordan & Weiss (2001)**  
-   *On Spectral Clustering: Analysis and an Algorithm*
-   - Introduced the widely used spectral clustering algorithm.  
-   - Method: similarity graph → Laplacian → eigenvectors → k-means.  
-   - Established spectral clustering as a robust alternative to traditional clustering.  
-   [Read here](https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf)
-
-2. **Zelnik-Manor & Perona (2004)**  
-   *Self-Tuning Spectral Clustering* 
-   - Tackled sensitivity to scale parameter (σ).  
-   - Proposed **local scaling** for robustness across varying data densities.  
-   - Made spectral clustering more practical for real-world datasets.  
-   [Read here](https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf)
-
-3.  **von Luxburg (2007)**  
-   *A Tutorial on Spectral Clustering* 
-   - Comprehensive overview of theory and practice.  
-   - Explained graph Laplacians, normalized cuts, and algorithmic variants.  
-   - Provided intuition and guidance for applications.  
-   [Read here](https://link.springer.com/article/10.1007/s11222-007-9033-z)
-
----
 
 Key script
 -
@@ -208,3 +184,27 @@ Evaluations produced
 
 - **Integration with Deep Learning**  
   Combine **density-adaptive Laplacians** with **deep learning features** for hybrid models that leverage both spectral methods and representation learning.
+## Spectral Clustering – Key References
+
+1. **Ng, Jordan & Weiss (2001)**  
+   *On Spectral Clustering: Analysis and an Algorithm*
+   - Introduced the widely used spectral clustering algorithm.  
+   - Method: similarity graph → Laplacian → eigenvectors → k-means.  
+   - Established spectral clustering as a robust alternative to traditional clustering.  
+   [Read here](https://proceedings.neurips.cc/paper_files/paper/2001/file/801272ee79cfde7fa5960571fee36b9b-Paper.pdf)
+
+2. **Zelnik-Manor & Perona (2004)**  
+   *Self-Tuning Spectral Clustering* 
+   - Tackled sensitivity to scale parameter (σ).  
+   - Proposed **local scaling** for robustness across varying data densities.  
+   - Made spectral clustering more practical for real-world datasets.  
+   [Read here](https://proceedings.neurips.cc/paper_files/paper/2004/file/40173ea48d9567f1f393b20c855bb40b-Paper.pdf)
+
+3.  **von Luxburg (2007)**  
+   *A Tutorial on Spectral Clustering* 
+   - Comprehensive overview of theory and practice.  
+   - Explained graph Laplacians, normalized cuts, and algorithmic variants.  
+   - Provided intuition and guidance for applications.  
+   [Read here](https://link.springer.com/article/10.1007/s11222-007-9033-z)
+
+---
